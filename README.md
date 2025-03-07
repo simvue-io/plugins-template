@@ -118,3 +118,7 @@ The exact contents of both of the above options can be obtained directly by clic
 ## License
 
 Released under the terms of the [Apache 2](https://github.com/simvue-io/client/blob/main/LICENSE) license.
+
+## Citation
+
+To reference Simvue, please use the information outlined in this [citation file](https://github.com/simvue-io/python-api/blob/dev/CITATION.cff).
