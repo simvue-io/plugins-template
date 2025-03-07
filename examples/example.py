@@ -1,11 +1,11 @@
 """
-Connector Example
+Plugin Example
 ========================
-This is an example of the {YourRun} Connector class.
+This is an example of the Plugin.
 
 Explain what your example simulation does...
 
-Provide instructions on how to run your connector, eg:
+Provide instructions on how to run your plugin, eg:
     - Clone this repository: git clone {link}
     - Create a virtual environment: python -m venv venv
     - Activate the environment: source venv/bin/activate
@@ -17,7 +17,7 @@ Provide instructions on how to run your connector, eg:
 import pathlib
 import shutil
 import uuid
-from simvue_template.connector import YourRun
+from simvue_template.plugin import YourPlugin
 
 # Define a function for running your example
 def example(offline=False) -> None:
@@ -27,16 +27,15 @@ def example(offline=False) -> None:
         shutil.rmtree(pathlib.Path(__file__).parent.joinpath("results"))
 
     # Initialise the FDSRun class as a context manager
-    with YourRun(mode="offline" if offline else "online") as run:
+    with YourPlugin(mode="offline" if offline else "online") as run:
         # Initialise the run
         run.init(name="simulation_example")
-
-        # Call the .launch() method to start your FDS simulation, providing the path to the input file
-        run.launch()
         
+        # Do some simulations...
+
         # Make sure you return the run ID, for use in the integration tests
         return run.id
 
 if __name__ == "__main__":
-    fds_example("/fds_example")
+    example()
 

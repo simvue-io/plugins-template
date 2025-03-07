@@ -1,6 +1,6 @@
 ---
 name: Feature request
-about: Suggest a new feature or enhancement to add to an existing Connector
+about: Suggest a new feature or enhancement to add to an existing Plugin
 title: ''
 labels: ''
 assignees: ''

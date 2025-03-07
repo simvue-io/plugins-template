@@ -1,13 +1,13 @@
-# New Connector Feature - [Enter Feature Title]
+# New Plugin Feature - [Enter Feature Title]
 
 ## Description of Feature
 [Describe what the new feature does, and how it is useful]
 
 ## Testing Performed
-- **Tested Software Version(s)**: [Versions of the software which the connector has been tested against]
+- **Tested Software Version(s)**: [Versions of the software which the plugin has been tested against]
 - **Tested Operating System(s)**: [Names of operating systems which this has been tested against]
-- **Tested Python Version(s)**: [The python versions which this connector has been tested against]
-- **Tested Simvue Python API Version(s)**: [Versions of the Python API which this connector has been tested against]
+- **Tested Python Version(s)**: [The python versions which this plugin has been tested against]
+- **Tested Simvue Python API Version(s)**: [Versions of the Python API which this plugin has been tested against]
 
 ## Documentation
 - **Link to Documentation PR**: [Provide a link to a Pull Request in the Documentation repo, where the `Integrations` and `Examples` pages have been updated to include your new Feature (if applicable)]

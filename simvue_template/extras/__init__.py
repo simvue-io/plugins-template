@@ -1,4 +1,4 @@
 """Extras.
 
-Extra functionality used by the Connector.
+Extra functionality used by the Plugin.
 """
