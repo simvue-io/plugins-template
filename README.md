@@ -71,10 +71,10 @@ If this was all successful, repeat with the real PyPI instance at `pypi.org`, us
 
 From now on, you can do deployments automatically. Simply:
 
-* Update the `pyproject.toml` with a new version number, eg `v1.0.1`
+* Update the `pyproject.toml` with a new version number, eg `v1.0.0`
 * Update the CHANGELOG to reflect your newest changes
-* Tag a branch with a semantic version number, eg `git tag v1.0.1`
-* Push the tag: `git push origin v1.0.1`
+* Tag a branch with a semantic version number, eg `git tag v1.0.0`
+* Push the tag: `git push origin v1.0.0`
 
 This should automatically start the deployment workflow - check that it completes successfully on the Github UI.
 
