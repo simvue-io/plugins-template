@@ -51,7 +51,7 @@ You should create two types of tests:
 Inside the `.github` directory, there are a number of workflows already created. You should edit these to work for your plugin. They include:
 
 * `test_macos`, `test_ubuntu`, `test_windows`: These run the unit and integration tests, should not need to be altered
-* `deploy`: Automates deployment to test-PyPI and PyPI for tagged releases (see below). You need to update the module names in this file - see the curly brackets.
+* `deploy`: Automates deployment to test-PyPI and PyPI for tagged releases (see below). You need to update the module names in this file - search for 'your-module-name' and replace as necessary.
 
 ### Deployment
 When you are happy with your plugin and are ready to deploy it to PyPI for the first time, you need to do the following:
